@@ -16,7 +16,8 @@ app.get("/produto", function(req, resposta){
 
 app.get("/dados/:nome/:cargo", function(req, resposta){
     resposta.send("<h1>Olá " + req.params.nome + "</h1> <h2>seu cargo é: " + req.params.cargo + "</h2>")
-})
+});
+
 
 //ultima linha ao utilizar express, SEMPRE!
 app.listen(8082, function() {
