@@ -4,8 +4,10 @@
         <form action="/cadastro/cliente/salvar" method="POST">
             <label>Nome:</label>
             <input name="nome"type="text"/> <br/>
-            <label>Senha:</label>
-            <input name="senha" type="password"> <br/>
+            <label>idade:</label>
+            <input name="idade" type="number"> <br/>
+            <label>Endereço</label>
+            <input name="endereco" type="text"> <br/>
             <input type="submit" value="cadastro">
         </form>
         <% if(mensagem) {%>
